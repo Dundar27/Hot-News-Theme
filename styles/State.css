@@ -1,0 +1,29 @@
+nav .item-1 a i:hover {
+  transform: scale(110%) rotate(360deg);
+}
+
+nav .item-3 i:hover {
+  transform: scale(110%);
+}
+
+nav .item-2 a:hover,
+nav .item-3 a:hover {
+  background-color: white;
+  color: rgb(200, 40, 60);
+  border-radius: 15px;
+}
+
+nav .item-1 a i:hover,
+nav .item-2 a i:hover,
+nav .item-3 a i:hover {
+  transition: all 0.8s;
+}
+
+header .titles_of_news .news:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+.main article section .card .card-footer a button:hover{
+  background-color: rgb(236, 46, 68);
+  transition: all 0.2s;
+}
