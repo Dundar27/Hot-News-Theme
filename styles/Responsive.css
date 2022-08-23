@@ -67,15 +67,9 @@
   .economy .moneys {
     display: block;
   }
-  .economy .moneys .item-1,
-  .economy .moneys .item-2 {
-    display: flex;
-  }
-  .economy .moneys .item-1 {
-    margin-bottom: 1rem;
-  }
   .economy .moneys .money {
-    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0 2rem 0 2rem;
   }
   .economy .moneys .money iframe {
     width: 100%;
@@ -111,9 +105,14 @@
     width: 100%;
   }
   /**********Money Values**********/
-  .economy .moneys .money {
-    margin-bottom: 1rem;
+  .economy .moneys {
+    overflow: scroll;
   }
+  .economy .moneys .money {
+    margin-bottom: 1.5rem;
+    padding: 0 1rem 0 1rem;
+  }
+
   /**********News**********/
   .main {
     display: block;
