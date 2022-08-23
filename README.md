@@ -1,3 +1,3 @@
-# web-platform-iul7be
+# Haber Temalı Sayfa Tasarımı
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-iul7be)
+Bu sayfa [Davut Burak Dündar] tarafından oluşturulmuştur.
