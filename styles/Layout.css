@@ -161,6 +161,7 @@ header .titles_of_news .news a span {
 footer{
   background-color: rgb(200, 40, 60);
   text-align: center;
+  margin-top: 1rem;
 }
 footer form{
   padding: 1rem;

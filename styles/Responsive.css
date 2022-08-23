@@ -45,11 +45,52 @@
   .main article section .card {
     padding: 0rem;
   }
-
-  .main aside .catagories .title h2,
-  .main article .title h2 {
-    color: rgb(200, 40, 60);
-    margin: 0;
+  /*****Main Section*****/
+  .main article section {
+    display: block;
+  }
+  .main article section .card {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /*****Header*****/
+  header {
+    display: block;
+    margin: 1rem 0 1rem 0;
+  }
+  header .app-advertisement,
+  header .titles_of_news {
+    width: 100%;
+  }
+  /**********Money Values**********/
+  .economy .moneys {
+    display: block;
+  }
+  .economy .moneys .item-1,
+  .economy .moneys .item-2 {
+    display: flex;
+  }
+  .economy .moneys .item-1 {
+    margin-bottom: 1rem;
+  }
+  .economy .moneys .money {
+    margin-right: 1rem;
+  }
+  .economy .moneys .money iframe {
+    width: 100%;
+  }
+  /**********News**********/
+  .main {
+    display: block;
+  }
+  .main article,
+  .main aside {
+    width: 100%;
+  }
+  .main article,
+  .main article section .card {
+    padding: 0rem;
   }
   /*****Main Section*****/
   .main article section {
@@ -58,8 +99,37 @@
   .main article section .card {
     margin-bottom: 2rem;
   }
-  /***********Footer**********/
-  footer {
-    margin-top: 1rem;
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  /*****Header*****/
+  header {
+    display: block;
+    margin: 1rem 0 1rem 0;
+  }
+  header .app-advertisement,
+  header .titles_of_news {
+    width: 100%;
+  }
+  /**********Money Values**********/
+  .economy .moneys .money {
+    margin-bottom: 1rem;
+  }
+  /**********News**********/
+  .main {
+    display: block;
+  }
+  .main article,
+  .main aside {
+    width: 100%;
+  }
+  .main article,
+  .main article section .card {
+    padding: 0rem;
+  }
+  .main article section .card {
+    margin-right: 1rem;
+  }
+  .main article section .card .card-body {
+    max-height: 250px;
   }
 }
