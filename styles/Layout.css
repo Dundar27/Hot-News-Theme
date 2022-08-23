@@ -40,7 +40,7 @@ header {
   margin: 2rem 0 1rem 0;
 }
 header .app-advertisement {
-  max-width: 70%;
+  width: 70%;
 }
 header .titles_of_news {
   width: 30%;
@@ -55,7 +55,7 @@ header .titles_of_news {
 }
 /*App-advertisement*/
 header .app-advertisement a img {
-  max-width: 100%;
+  width: 100%;
 }
 header .app-advertisement a h2 {
   width: 100%;
@@ -157,6 +157,7 @@ header .titles_of_news .news a span {
   font-stretch: expanded;
   cursor: pointer;
 }
+/***********Footer**********/
 footer{
   background-color: rgb(200, 40, 60);
   text-align: center;

@@ -1,0 +1,65 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /*****Navbar*****/
+  nav {
+    display: block;
+    padding: 0.5rem;
+  }
+  nav .item-1,
+  nav .item-3 {
+    display: none;
+  }
+  nav div {
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+  }
+  /*****Header*****/
+  header {
+    display: block;
+    margin: 1rem 0 1rem 0;
+  }
+  header .app-advertisement,
+  header .titles_of_news {
+    width: 100%;
+  }
+  /**********Money Values**********/
+  .economy .moneys {
+    display: block;
+  }
+  .economy .moneys .money {
+    margin-bottom: 2rem;
+  }
+  .economy .moneys .money iframe {
+    width: 100%;
+  }
+  /**********News**********/
+  .main {
+    display: block;
+  }
+  .main article,
+  .main aside {
+    width: 100%;
+  }
+
+  .main article,
+  .main article section .card {
+    padding: 0rem;
+  }
+
+  .main aside .catagories .title h2,
+  .main article .title h2 {
+    color: rgb(200, 40, 60);
+    margin: 0;
+  }
+  /*****Main Section*****/
+  .main article section {
+    display: block;
+  }
+  .main article section .card {
+    margin-bottom: 2rem;
+  }
+  /***********Footer**********/
+  footer {
+    margin-top: 1rem;
+  }
+}
