@@ -173,14 +173,14 @@ footer form input {
   padding: 0.3rem;
   border: none;
   border-radius: 3px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
-footer form input[type='email'] {
+footer form input[type="email"] {
   outline: none;
   font-size: medium;
   font-weight: 600;
 }
-footer form input[type='submit'] {
+footer form input[type="submit"] {
   font-size: medium;
   background-color: green;
   color: white;
